@@ -3,9 +3,9 @@ var darkmode = document.getElementById("darkmode");
 darkmode.onclick = function() {
     document.body.classList.toggle("dark-theme");
     if (document.body.classList.contains("dark-theme"))
-        darkmode.src = "icons/sun.png";
+        darkmode.src = "sun.png";
     else {
-        darkmode.src = "icons/moon.png"
+        darkmode.src = "moon.png"
     }
 
 }
